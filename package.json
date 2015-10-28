@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "tsc": "tsc -p src -w",
-    "preinstall": "tsc -p src",
-    "postinstall": "echo there it goes!",
+    "preinstall": "echo there it goes!",
+    "postinstall": "tsc -p src",
     "start": "live-server --open=src",
     "test": "live-server --open=src/unit-tests.html"
   },
